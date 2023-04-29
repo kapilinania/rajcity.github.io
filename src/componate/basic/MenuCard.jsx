@@ -9,7 +9,7 @@ const MenuCard = ({menuData}) => {
           return (
             <>
               
-                      <div className='col-3 col-md-3 mb-5' key={curElement.id} >
+                      <div className='col-12 col-sm-12 col-lg-3 col-xl-3 col-md-3 mb-5' key={curElement.id} >
                       <div className="card" height={500}>
                           <img src={curElement.image} className="card-img-top" alt="..." height={250}/>
                           <div className="card-body">
